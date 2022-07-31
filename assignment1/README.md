@@ -5,7 +5,7 @@
 
 The objective of the test is the testing of atleast five functions as assigned in this Assignment.
 
-## Test cases, Test coverage and Execution details.
+## Test cases, Test coverage, Defects and Platform details.
 
 ### Test Cases
 - ```Square``` takes one number ```a``` as input and returns the square the number.
