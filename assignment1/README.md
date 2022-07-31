@@ -21,10 +21,10 @@ The objective of the test is the testing of atleast five functions as assigned i
 - ```Summ```there are three edge case tests adding positive numbers, negative numbers and postive and negative numbers.
 - ```Difference```there are three edge case tests subtracting positive numbers, negative nubers and postive and negative numbers.
 
-## Defects
+### Defects
 
 There were no defects found during the testing of any of the functions.
 
-## Platform and test environment details
+### Platform and test environment details
 
 ```PyUnit``` is used and the the code is written in ```Python3```. Only the  ```task1TestSuite.py``` code file has to be run. It offers multiple options to run specific unit tests or the entire testing suite at the same time.
