@@ -1,5 +1,5 @@
-def square(x):
-    return x * x
+def square(a):
+    return a * a
 
 def product(a, b):
     return a * b
