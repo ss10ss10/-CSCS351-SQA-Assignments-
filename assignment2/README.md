@@ -16,8 +16,8 @@ The objective of this task is to demonstrate API testing using ```Selenium``` fo
 - ```find_elements``` finds the first few search results and gets their urls and displays them to the console
 - ```close``` closes the chromedriver instance that carried all of these tasks out
 
-### API Testing
-# Using ```webdriver.requests``` to list the response for each call
+# API Testing
+### Using ```webdriver.requests``` to list the response for each call
 - ```method``` shows whether it was a get or post response
 - ```host``` shows the host these responses were from
 - ```status_code``` shows the response status code
