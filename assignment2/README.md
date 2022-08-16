@@ -5,10 +5,10 @@
 The objective of this task is to demonstrate API testing using ```Selenium``` for ```Python```.
 
 ### Dependencies
-- ```selenium``` install selenium using "pip install selenium"
+- ```selenium-wire``` install seleniumwire using "pip install selenium-wire"
 - ```chromedriver``` chromedriver executable needs to be in the current working directory where the python script is
 
-### Test Cases
+### Test Cases for Basic Functionality
 - ```get``` opens an instance of the provided URL (in this case 'google.com')
 - ```find_element``` finds the search box by class_name
 - ```send_keys``` puts the string to be searched (in this case 'selenium') in the search box
@@ -16,11 +16,21 @@ The objective of this task is to demonstrate API testing using ```Selenium``` fo
 - ```find_elements``` finds the first few search results and gets their urls and displays them to the console
 - ```close``` closes the chromedriver instance that carried all of these tasks out
 
+### API Testing
+# Using ```webdriver.requests``` to list the response for each call
+- ```method``` shows whether it was a get or post response
+- ```host``` shows the host these responses were from
+- ```status_code``` shows the response status code
+- ```date``` shows the date and time for the specific response
+
 ### Console output
-![image](https://user-images.githubusercontent.com/64100540/184901888-bcf588ba-9362-4d47-b6fa-e65828e64703.png)
+![image](https://user-images.githubusercontent.com/64100540/184938143-a3d8d969-f442-4c22-95a0-62733ad0874a.png)
+
 
 ### Chromedriver outputs
-![Screenshot from 2022-08-16 19-15-39](https://user-images.githubusercontent.com/64100540/184902291-f85d9fae-4967-42da-b7db-b960ce64e8e4.png)
+![Screenshot from 2022-08-16 22-09-04](https://user-images.githubusercontent.com/64100540/184938246-47ee3f33-8a92-49ae-84d6-3b78ca3f870b.png)
+![Screenshot from 2022-08-16 22-09-08](https://user-images.githubusercontent.com/64100540/184938492-ff1caf3f-3d1d-421b-ae44-8e7f7375cab3.png)
 
-![image](https://user-images.githubusercontent.com/64100540/184902061-bfa25ef8-ca05-4fb7-ba50-1cf8e05ac50c.png)
+
+
 
