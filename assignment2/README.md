@@ -15,6 +15,7 @@ The objective of this task is to demonstrate API testing using ```Selenium``` fo
 - ```submit``` sends the query back to the server which displays the result in the chromedriver instance we opened previously
 - ```find_elements``` finds the first few search results and gets their urls and displays them to the console
 - ```close``` closes the chromedriver instance that carried all of these tasks out
+- ```assertNotIn``` tests whether the the search yielded any results or not
 
 # API Testing
 ### Using ```webdriver.requests``` to list the response for each call
@@ -22,14 +23,16 @@ The objective of this task is to demonstrate API testing using ```Selenium``` fo
 - ```host``` shows the host these responses were from
 - ```status_code``` shows the response status code
 - ```date``` shows the date and time for the specific response
+- ```assert``` checks if the returned response status code is 200 or 302
 
 ### Console output
-![image](https://user-images.githubusercontent.com/64100540/184938143-a3d8d969-f442-4c22-95a0-62733ad0874a.png)
-
+![image](https://user-images.githubusercontent.com/64100540/184954039-d1277da7-d528-4360-8370-4b56f113f3ee.png)
 
 ### Chromedriver outputs
-![Screenshot from 2022-08-16 22-09-04](https://user-images.githubusercontent.com/64100540/184938246-47ee3f33-8a92-49ae-84d6-3b78ca3f870b.png)
-![Screenshot from 2022-08-16 22-09-08](https://user-images.githubusercontent.com/64100540/184938492-ff1caf3f-3d1d-421b-ae44-8e7f7375cab3.png)
+![Screenshot from 2022-08-16 23-38-48](https://user-images.githubusercontent.com/64100540/184954245-b1da6b03-b90f-495d-a144-17a0025b3f85.png)
+![Screenshot from 2022-08-16 23-38-51](https://user-images.githubusercontent.com/64100540/184954266-e858db0d-b134-4668-8c22-3cad46bc6cbc.png)
+
+
 
 
 
