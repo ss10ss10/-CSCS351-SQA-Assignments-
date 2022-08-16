@@ -43,7 +43,7 @@ class SeleniumTest(unittest.TestCase):
         driver = self.driver
         # all API calls made by the webdriver are recorded and can be retrieved using the following functions
         driver.get("http://www.google.com")
-        assert driver.requests[0].response.status_code == 200 or driver.requests[0].response.status_code == 302, "status code is not 200"
+        assert driver.requests[0].response.status_code == 200 or driver.requests[0].response.status_code == 302, "status code is not 200 or 302"
         
         print('\n')
         print("API testing using Selenium")
