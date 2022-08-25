@@ -2,7 +2,7 @@
 ### Objective
 This project requires us to create a CI/CD pipeline using ```Jenkins``` for any development project.
 ### Implementation
-- Install ```Jenkins``` and start it (default localhost:8080)
+- Install ```Jenkins``` and start it (default localhost:8080) ```sudo apt install jenkins```
 - Signup on ```Ngrok``` to access ```localhost:8080``` using assigned link
 - Create ```git-webhook``` and add ngrok url to the payload url in webhook
 - Setup the webhook to trigger on new push
